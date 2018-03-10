@@ -1,0 +1,42 @@
+.main-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.main-menu-iteam {
+    display: inline-block;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    margin-right: 10px;
+    font-family: Verdana, sans-serif
+}
+.main-menu-iteam:hover {
+    background:burlywood;
+}
+.main-menu-iteam a {
+    display: block;
+    height: 50px;
+    padding: 0px 15px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(206, 136, 185)
+}
+
+.main-logo img {
+max-height: 50px;
+margin-left: 10px;
+}
+.slider img {
+    max-width: 100%;
+}
+.small-article img {
+    max-width: 100%;
+}
+
+h4 {
+    color: burlywood;
+}
