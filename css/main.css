@@ -1,42 +1,137 @@
+
+body {
+    background-color: rgb(240, 228, 228);
+
+}
+header {
+    min-height: 5vh;
+}
+main {
+    min-height: 80vh;
+}
+footer {
+    min-height: 5vh;
+}
+
 .main-menu{
     list-style: none;
     margin: 0;
     padding: 0;
     float: right;
 }
-.main-menu-iteam {
+.main-menu-item {
     display: inline-block;
     height: 50px;
-    margin-left: 10px;
     line-height: 50px;
-    margin-right: 10px;
-    font-family: Verdana, sans-serif
+    font-family: 'Archivo Black', sans-serif;
 }
-.main-menu-iteam:hover {
-    background:burlywood;
+ul li a {
+    color: white;
 }
-.main-menu-iteam a {
+.main-menu-item a {
     display: block;
     height: 50px;
     padding: 0px 15px;
 }
-
-header {
-    border-bottom: 1px solid #ccc;
-    background-color: rgb(206, 136, 185)
+.main-menu-item a:hover{
+    background: rgb(143, 83, 138);
+    text-decoration: none;
 }
-
+header{
+    border-bottom: 1px solid #ccc;    
+    background: #681964;
+}
 .main-logo img {
-max-height: 50px;
-margin-left: 10px;
-}
-.slider img {
-    max-width: 100%;
-}
-.small-article img {
-    max-width: 100%;
+    max-height: 50px;
 }
 
-h4 {
-    color: burlywood;
+.slider {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.slider img{
+    max-width: 100%;
+}
+.small-article img{
+    max-width: 100%;
+    padding-right: 0px;
+   
+
+}
+.img-small {
+    padding-right: 0px;
+    margin-top: 15px;
+    height: 50px;
+    width: 80px;
+}
+.img-pad {
+    padding-right: 0px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+main h4 {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.border3 {
+    border: 3px solid rgb(167, 162, 162);
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #681964;
+    width: 100%;
+    padding: 10px;
+    /* bottom: 0; */
+    /* position: absolute; */
+    /* bottom: 0px; */
+}
+footer {
+    bottom: 0;
+    position: relative;
+
+}
+
+.color {
+    font-size: 20px;
+    color: white;
+    float: left;
+    padding-left: 50px;
+}
+
+/* ////articles style /////*/
+
+.color-12 {
+    background-color: rgb(240, 228, 228);
+    font-style: black;
+}
+.color-12 li a {
+    color: black;
+}
+
+.small-article img{
+    max-width: 100%;
+    /* filter: grayscale(100%);*/
+}
+.breadcrumbs{
+    margin-bottom: 20px;
+}
+.breadcrumbs .seperator{
+    margin: 0px 10px;
+}
+.medium-article img{
+    max-width: 100%;
+}
+.medium-article hr{
+    border-top: 1px solid #ccc;
+}
+.pagination {
+    float: right;
+    
 }
